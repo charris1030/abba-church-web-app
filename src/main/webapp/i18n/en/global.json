@@ -3,43 +3,43 @@
         "title": "Abba Church",
         "browsehappy": "Você está usando um navegador <strong>desatualizado</strong>. Favor <a href=\"http://browsehappy.com/?locale=pt_BR\">atualizar o seu navegador</a> para ter uma experiência melhor.",
         "menu": {
-            "home": "Início",
+            "home": "Home",
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entidades",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
-                "main": "Conta",
-                "settings": "Configuração",
-                "password": "Senha",
-                "sessions": "Sessões",
-                "login": "Entrar",
-                "logout": "Sair",
-                "register": "Registrar"
+                "main": "Account",
+                "settings": "Settings",
+                "password": "Password",
+                "sessions": "Sessions",
+                "login": "Login",
+                "logout": "Logout",
+                "register": "Register"
             },
             "admin": {
-                "main": "Administração",
-                "userManagement": "Gerenciamento de usuário",
-                "tracker": "Rastreamento de usuário",
-                "metrics": "Métricas",
-                "health": "Estado do Sistema",
-                "configuration": "Configuração",
+                "main": "Admin",
+                "userManagement": "User Management",
+                "tracker": "Tracker",
+                "metrics": "Metrics",
+                "health": "System Health",
+                "configuration": "Configuration",
                 "logs": "Logs",
-                "audits": "Auditorias",
+                "audits": "Audits",
                 "apidocs": "API",
-                "database": "Banco de dados",
+                "database": "Database",
                 "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
             },
             "language": "Idioma"
         },
         "form": {
-            "username": "Usuário",
-            "username.placeholder": "Seu usuário",
+            "username": "Username",
+            "username.placeholder": "Your Username",
             "currentpassword": "Current password",
             "currentpassword.placeholder": "Current password",
-            "newpassword": "Nova senha",
-            "newpassword.placeholder": "Nova senha",
+            "newpassword": "New password",
+            "newpassword.placeholder": "New password",
             "confirmpassword": "Confirmação de nova senha",
             "confirmpassword.placeholder": "Confirme a nova senha",
             "email": "Email",
@@ -53,8 +53,8 @@
                     "suffix": ", utilize as seguintes contas padrões:<br/>- Administrador (usuário=\"admin\" and senha=\"admin\") <br/>- Usuário (usuário=\"user\" and senha=\"user\")."
                 },
                 "register": {
-                    "noaccount": "Não possui uma conta ainda?",
-                    "link": "Crie uma nova conta"
+                    "noaccount": "No account?",
+                    "link": "Create a new account"
                 }
             },
             "error": {
@@ -131,5 +131,5 @@
         "idexists": "Novo(a) {{entityName}} não pode ter uma ID",
         "idnull": "Invalid ID"
     },
-    "footer": ""
+    "footer": "Este é o seu rodapé"
 }

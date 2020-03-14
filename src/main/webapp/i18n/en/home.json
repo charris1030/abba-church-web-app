@@ -1,0 +1,15 @@
+{
+    "home": {
+        "title": "Welcome to Abba Church",
+        "subtitle": "",
+        "logged": {
+            "message": "You are logged in as \"{{username}}\"."
+        },
+        "question": "",
+        "link": {
+            "test": "Test Link"
+        },
+        "like": "",
+        "github": ""
+    }
+}
