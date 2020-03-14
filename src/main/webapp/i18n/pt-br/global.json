@@ -131,5 +131,5 @@
         "idexists": "Novo(a) {{entityName}} não pode ter uma ID",
         "idnull": "Invalid ID"
     },
-    "footer": "Este é o seu rodapé"
+    "footer": ""
 }
