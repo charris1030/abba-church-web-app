@@ -21,6 +21,7 @@ Navbar
     .dropdown-item.active:focus,
     .dropdown-item.active:hover {
         background-color: $dark;
+        font-weight: 400;
     }
 
     ul.navbar-nav {
@@ -36,12 +37,13 @@ Navbar
     .navbar-toggler {
         &:hover {
             color: $navbar-dark-hover-color;
+            font-weight: 400;
         }
     }
 }
 
 .abba-nav {
-    background-color: #0f2862 !important;
+    background-color: #0f2862 !important; // #80b2d6 !important; //#0f2862 !important;
 }
 
 /* ==========================================================================
@@ -52,6 +54,6 @@ Logo styles
     width: 45px;
     display: inline-block;
     vertical-align: middle;
-    //background: url('../../../content/images/logo-jhipster.png') no-repeat center center;
+    background: url('../../../content/images/abba_logo.png') no-repeat center center;
     background-size: contain;
 }

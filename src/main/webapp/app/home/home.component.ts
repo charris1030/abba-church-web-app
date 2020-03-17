@@ -12,6 +12,7 @@ import { LoginModalService, AccountService, Account } from 'app/core';
 export class HomeComponent implements OnInit {
     account: Account;
     modalRef: NgbModalRef;
+    titheLink: string;
 
     constructor(
         private accountService: AccountService,
@@ -24,6 +25,7 @@ export class HomeComponent implements OnInit {
             this.account = account;
         });
         this.registerAuthenticationSuccess();
+        this.titheLink = 'https://tithe.ly/give?c=1302804';
     }
 
     registerAuthenticationSuccess() {
@@ -40,5 +42,12 @@ export class HomeComponent implements OnInit {
 
     login() {
         this.modalRef = this.loginModalService.open();
+    }
+
+    /**
+    CH - open Tithe donation page in new tab
+    */
+    openDonate() {
+        window.open(this.titheLink, '_blank');
     }
 }
