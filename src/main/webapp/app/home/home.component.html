@@ -1,12 +1,15 @@
 <div class="row">
     <div class="col-md-3">
-        <span class="abba-img img-fluid rounded"></span>
+        <button type="submit" class="btn btn-primary donate-button" (click)="openDonate()">
+            <span jhiTranslate="home.donate">Doação / Donate</span>
+        </button>
+        <!-- <span class="abba-img img-fluid rounded"></span> -->
+        <p class="donate-text-msg" jhiTranslate="home.text-giving">Text Giving-(833) 331-3368</p>
     </div>
     <div class="col-md-9">
-        <h1 class="display-4" jhiTranslate="home.title">Welcome to Abba Church</h1>
+        <h2 jhiTranslate="home.title">Welcome to Abba Church</h2>
         <p class="lead" jhiTranslate="home.subtitle"></p>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/XYZ123" frameborder="0" allowfullscreen></iframe>
-        <button type="submit" class="btn btn-primary donate-button" (click)="openDonate()">Doação / Donate</button>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/live_stream?channel=UC2DFjsjo_RxrTN9A1SyHgjQ" frameborder="0" allowfullscreen></iframe>
 <!--        <a href="https://tithe.ly/give?c=1302804">TEST</a>-->
         <!--<button class="tithely-give-btn" style="background-color: #00DB72;font-family: inherit;font-weight: bold;font-size: 19px; padding: 15px 70px; border-radius: 4px; cursor: pointer; background-image: none; color: white; text-shadow: none; display: inline-block; float: none; border: none;" data-church-id="1302804">Doação</button>
         <script src="https://tithe.ly/widget/v3/give.js?3"></script>
@@ -30,11 +33,10 @@
         </div>
 
         <p jhiTranslate="home.question">
-            If you have any question on JHipster:
         </p>
 
         <p>
-            <span jhiTranslate="home.like">If you like JHipster, don't forget to give us a star on</span> <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener" jhiTranslate="home.github">GitHub</a>
+            <span jhiTranslate="home.like"></span>
         </p>
     </div>
 </div>

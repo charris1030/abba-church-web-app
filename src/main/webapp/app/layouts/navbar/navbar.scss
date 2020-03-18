@@ -7,7 +7,7 @@ Navbar
 
 .navbar-version {
     font-size: 0.65em;
-    color: $navbar-dark-color;
+    color: #091f36; // #9e363a;
 }
 
 .profile-image {
@@ -16,11 +16,12 @@ Navbar
 }
 
 .navbar {
+    margin-right: 75px;
     padding: 0.2rem 1rem;
     .dropdown-item.active,
     .dropdown-item.active:focus,
     .dropdown-item.active:hover {
-        background-color: $dark;
+        background-color: #091f36; //$dark;
         font-weight: 400;
     }
 
@@ -30,7 +31,16 @@ Navbar
         }
     }
 
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        color: #fff;
+        text-decoration: none;
+        background-color: #4f5f76;
+        font-weight: 400;
+    }
+
     a.nav-link {
+        color: #091f36;
         font-weight: 400;
     }
 
@@ -43,17 +53,21 @@ Navbar
 }
 
 .abba-nav {
-    background-color: #0f2862 !important; // #80b2d6 !important; //#0f2862 !important;
+    background-color: #fff !important; // #80b2d6 !important; //#0f2862 !important;
+}
+
+.navbar-title {
+    color: #0f2862 !important;
 }
 
 /* ==========================================================================
 Logo styles
 ========================================================================== */
 .logo-img {
-    height: 85px;
-    width: 85px;
+    height: 50px;
+    width: 50px;
     display: inline-block;
     vertical-align: middle;
-    //background: url('../../../content/images/abba_logo_inverted.png') no-repeat center center;
+    background: url('../../../content/images/abba_logo.PNG') no-repeat center center;
     background-size: contain;
 }

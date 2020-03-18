@@ -6,7 +6,7 @@
             "home": "Home",
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
-                "main": "Entidades",
+                "main": "Entities",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
@@ -31,7 +31,7 @@
                 "database": "Database",
                 "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
             },
-            "language": "Idioma"
+            "language": "Language"
         },
         "form": {
             "username": "Username",

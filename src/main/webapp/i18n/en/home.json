@@ -1,6 +1,6 @@
 {
     "home": {
-        "title": "Welcome to Abba Church",
+        "title": "Welcome to Abba Church Marlboro",
         "subtitle": "",
         "logged": {
             "message": "You are logged in as \"{{username}}\"."
@@ -10,6 +10,8 @@
             "test": "Test Link"
         },
         "like": "",
-        "github": ""
+        "github": "",
+        "donate": "Donate",
+        "text-giving": "You can also donate via text message by texting the word \"give\" to (833) 331-3368 and then follow the instructions provided."
     }
 }

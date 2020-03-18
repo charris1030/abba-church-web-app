@@ -1,7 +1,7 @@
 {
     "home": {
-        "title": "Bem vindo",
-        "subtitle": "Esta é  a página principal",
+        "title": "Bem vindo ao Abba Church Marlboro",
+        "subtitle": "",
         "logged": {
             "message": "Você está logado como \"{{username}}\"."
         },
@@ -14,6 +14,8 @@
             "follow": ""
         },
         "like": "",
-        "github": ""
+        "github": "",
+        "donate": "Doação",
+        "text-giving": "Você também pode doar por mensagem de texto enviando a palavra \"give\" para (833) 331-3368 e, em seguida, siga as instruções fornecidas."
     }
 }
